@@ -1,15 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# chopLife
 
-> Description the project.
+> chopLife is a food delivery app that connects users to their favorite restaurants. It provides a platform for users to get their favorite meals to their doorstep from their favorite restaurants, for restaurants to connect more with customers, for dispatch riders to connect more with customers.
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML, CSS and javaScript
+- Frameworks: Bootstrap
+- Technologies used: git-flow, webhint, lighthouse, Eslint.
 
 ## Live Demo (if available)
 
@@ -40,17 +41,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Abraham Ibizugbe**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@Ibizigbe](https://github.com/Ibizugbe)
+- LinkedIn: [Abraham Ibizugbe](https://www.linkedin.com/in/abraham-ibizugbe-763791115/)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
