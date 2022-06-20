@@ -262,6 +262,8 @@ a {
 
 #reviews {
   padding: 0 15px 0 15px;
+  background-color: #f7f7f7;
+  padding-top: 50px;
 }
 
 .review-header {
@@ -274,7 +276,7 @@ a {
 .user-comment {
   font-size: 12px;
   padding-left: 15px;
-  color: white;
+  color: #f7f7f7;
 }
 
 .name {
@@ -289,4 +291,17 @@ a {
   padding: 10px;
   margin-top: 10px;
   background-color: black;
+}
+
+.black-see {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  width: 70%;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
 }
