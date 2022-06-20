@@ -1,3 +1,73 @@
-h1 {
-  color: red;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.my-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-li {
+  color: #d3d3d3;
+  font-weight: 500;
+  transition: 0.7s ease;
+}
+
+.brand-name {
+  font-size: 1.5em;
+  font-weight: 100;
+  color: #ec5242;
+}
+
+.brand-name:hover {
+  color: #ec5242;
+}
+
+.hamburger-bar {
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #ec5242;
+}
+
+.nav-ul {
+  display: none;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+@media (min-width: 768px) {
+  .hamburger-bar {
+    display: none;
+  }
+
+  .nav-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+  }
 }
