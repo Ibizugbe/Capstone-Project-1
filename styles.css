@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  min-width: 365px;
 }
 
 header {
@@ -304,4 +305,31 @@ a {
   font-size: 18px;
   font-weight: 600;
   text-align: center;
+}
+
+#partners {
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+}
+
+.partner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.partner-container-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.partner-img {
+  margin: 10px;
+}
+
+.partner-header {
+  font-size: 26px;
+  color: #ec5242;
+  text-align: center;
+  border: #ec5242 1px solid;
 }
