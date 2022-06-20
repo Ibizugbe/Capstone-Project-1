@@ -71,7 +71,7 @@ a {
     url(./Assets/background-images/chopLifeBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 90vh;
+  height: 70vh;
   padding: 40px 15px 0 15px;
   background-position: center;
 }
@@ -82,6 +82,11 @@ a {
   font-weight: 500;
   line-height: 40px;
   text-align: center;
+}
+
+.flex-contain {
+  display: flex;
+  align-items: center;
 }
 
 .find-food {
