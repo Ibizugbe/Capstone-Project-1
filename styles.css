@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -15,19 +16,24 @@ ul {
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .my-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 5px;
 }
 
 .nav-li {
   color: #d3d3d3;
   font-weight: 500;
   transition: 0.7s ease;
+}
+
+.nav-li:hover {
+  color: blue;
 }
 
 .brand-name {
@@ -59,15 +65,197 @@ a {
   gap: 100px;
 }
 
-@media (min-width: 768px) {
-  .hamburger-bar {
-    display: none;
-  }
+.intro-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./Assets/background-images/chopLifeBg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  padding: 40px 15px 0 15px;
+  background-position: center;
+}
 
-  .nav-ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
-  }
+.intro-header {
+  font-size: 32px;
+  color: #f7f7f7;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+}
+
+.find-food {
+  background-color: #ec5242;
+  color: #f7f7f7;
+  display: block;
+  width: 70%;
+  border: none;
+  height: 45px;
+}
+
+.find-food:hover {
+  background-color: black;
+}
+
+.name-input {
+  display: block;
+  width: 95%;
+  height: 45px;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+  border: none;
+}
+
+.btn-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.small-text {
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  margin: 0;
+  font-size: 12px;
+}
+
+.sign-in-sm {
+  color: #ec5242;
+}
+
+/* dish section */
+
+.dishes {
+  padding: 0 15px 0 15px;
+}
+
+.main-dishes {
+  font-size: 32px;
+  background-color: #000000;
+  color: white;
+  display: inline-block;
+  padding: 0 15px 0 15px;
+  border-radius: 12px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+}
+
+.dish-card {
+  border: #ec5242 2px solid;
+  background-color: #f7f7f7;
+  color: white;
+}
+
+#dish-card1 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(196, 196, 196, 0) 16.15%,
+      rgba(0, 0, 0, 0.5) 54.69%,
+      #000000 100%
+    ),
+    url(./Assets/other-images/Jollof-rice.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 10px 30px 10px;
+}
+
+#dish-card2 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(196, 196, 196, 0) 16.15%,
+      rgba(0, 0, 0, 0.5) 54.69%,
+      #000000 100%
+    ),
+    url(./Assets/other-images/1st-food-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 10px 30px 10px;
+  margin-top: 20px;
+}
+
+#dish-card3 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(196, 196, 196, 0) 16.15%,
+      rgba(0, 0, 0, 0.5) 54.69%,
+      #000000 100%
+    ),
+    url(./Assets/other-images/2nd-food-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 10px 30px 10px;
+  margin-top: 20px;
+}
+
+#dish-card4 {
+  background-image: linear-gradient(
+      180deg,
+      rgba(196, 196, 196, 0) 16.15%,
+      rgba(0, 0, 0, 0.5) 54.69%,
+      #000000 100%
+    ),
+    url(./Assets/other-images/3rs-food-image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 10px 30px 10px;
+  margin-top: 20px;
+}
+
+.dish-name {
+  font-size: 29px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.dish-description {
+  text-align: center;
+  padding: 0 30px 0 30px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.dish-rating {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  margin: 0;
+}
+
+.order {
+  font-size: 23px;
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  margin: 0;
+}
+
+.cart {
+  background-color: #ec5242;
+  padding: 3px 8px 3px 8px;
+  border-radius: 8px;
+}
+
+.see {
+  background-color: #ec5242;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-top: 20px;
+  width: 70%;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.see-more {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
 }
