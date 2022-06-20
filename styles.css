@@ -259,3 +259,34 @@ a {
   justify-content: center;
   padding-bottom: 40px;
 }
+
+#reviews {
+  padding: 0 15px 0 15px;
+}
+
+.review-header {
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.user-comment {
+  font-size: 12px;
+  padding-left: 15px;
+  color: white;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.review-card {
+  display: flex;
+  border: 2px solid #ec5242;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: black;
+}
