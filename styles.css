@@ -105,8 +105,9 @@ a {
 }
 
 #intro {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./Assets/background-images/chopLifeBg.jpg);
+  background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+    url(./Assets/background-images/chopLifeBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
