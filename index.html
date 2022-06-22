@@ -13,7 +13,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="nav">
         <div class="my-nav">
           <a href="index.html" class="brand-name">chopLife</a>
           <ul class="nav-ul">
@@ -21,7 +21,7 @@
               <a href="#dish-section" class="nav-li">Dishes</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-li">Cntact Us</a>
+              <a href="#reviews" class="nav-li">Comments</a>
             </li>
             <li class="nav-item">
               <a href="#partners" class="nav-li">Partners</a>
@@ -44,10 +44,13 @@
               <a href="#dish-section" class="mobile-nav-li">Dishes</a>
             </li>
             <li class="mobile-nav-li">
-              <a href="#contact" class="mobile-nav-li">Cntact Us</a>
+              <a href="#reviews" class="mobile-nav-li">Comments</a>
             </li>
             <li class="mobile-nav-li">
               <a href="#partners" class="mobile-nav-li">Partners</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a href="about.html" class="mobile-nav-li">About Us</a>
             </li>
           </ul>
 
@@ -58,7 +61,7 @@
       </nav>
     </header>
     <main>
-      <section id="intro">
+      <section id="intro" class="fade-in">
         <div class="flex-contain">
           <div class="intro-container">
             <p class="introP">"Good food guarantees healthy living."</p>
@@ -68,14 +71,25 @@
 
             <form class="my-form">
               <div class="address-input">
+                <label for="address"
+                  >Where do you want your meal delivered?</label
+                >
                 <input
                   type="text"
                   class="name-input"
+                  name="address"
                   placeholder="Enter your address"
                 />
               </div>
               <div class="time-input">
-                <input type="datetime-local" class="name-input" />
+                <label for="date-and-time"
+                  >When do you want your meal delivered?</label
+                >
+                <input
+                  type="datetime-local"
+                  name="date-and-time"
+                  class="name-input"
+                />
               </div>
               <div class="btn-container">
                 <button class="find-food" type="submit">Find Food</button>
@@ -161,66 +175,9 @@
       <!-- reviews section -->
       <section id="reviews">
         <h2 class="review-header">What our users have to say!!</h2>
+
         <div class="reviews-container">
-          <div class="review-card">
-            <img
-              src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-              class="reviewer-img"
-              alt=""
-            />
-            <div class="user-comment">
-              <p class="name">John Stanley</p>
-              <p class="comment">
-                Best food delivery app i have used in nigeria. Absolutly
-                recommended and ill use it over and over agai!
-              </p>
-            </div>
-          </div>
-          <!-- 2nd review card -->
-          <div class="review-card">
-            <img
-              src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-              class="reviewer-img"
-              alt=""
-            />
-            <div class="user-comment">
-              <p class="name">John Stanley</p>
-              <p class="comment">
-                Best food delivery app i have used in nigeria. Absolutly
-                recommended and ill use it over and over agai!
-              </p>
-            </div>
-          </div>
-          <!-- 3rd card -->
-          <div class="review-card">
-            <img
-              src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-              class="reviewer-img"
-              alt=""
-            />
-            <div class="user-comment">
-              <p class="name">John Stanley</p>
-              <p class="comment">
-                Best food delivery app i have used in nigeria. Absolutly
-                recommended and ill use it over and over agai!
-              </p>
-            </div>
-          </div>
-          <!-- 4th card -->
-          <div class="review-card">
-            <img
-              src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-              class="reviewer-img"
-              alt=""
-            />
-            <div class="user-comment">
-              <p class="name">John Stanley</p>
-              <p class="comment">
-                Best food delivery app i have used in nigeria. Absolutly
-                recommended and ill use it over and over agai!
-              </p>
-            </div>
-          </div>
+          <!-- content is generated dynamically with javaScript -->
         </div>
 
         <div class="see-more">
@@ -274,6 +231,6 @@
       </section>
     </footer>
     <script src="menu.js"></script>
-    <script src="./main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
