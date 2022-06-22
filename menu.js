@@ -10,7 +10,7 @@ menuOpen.addEventListener('click', () => {
 });
 
 menuClose.addEventListener('click', () => {
-  containerNav.style.display = 'none'
+  containerNav.style.display = 'none';
   navList.style.display = 'flex';
 });
 
