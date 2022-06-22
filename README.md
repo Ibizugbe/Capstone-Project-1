@@ -8,15 +8,15 @@
 
 - **Desktop Home Screen**
 
-![Desktop Home Screen](./assets/screenshots/desktop-screen.png)
+![Desktop Home Screen](./Assets/Screenshots/desktop-landing.png)
 
 - **Mobile Home Screen**
 
-![Mobile Home Screen](./assets/screenshots/mobile-home.png)
+![Mobile Home Screen](./Assets/Screenshots/mobile-home-page.jpg)
 
 - **Mobile Menu**
 
-![Mobile Menu](./assets/screenshots/mobile-menu.png)
+![Mobile Menu](./Assets/Screenshots/mobile-menu.jpg)
 
 ## Built With
 
