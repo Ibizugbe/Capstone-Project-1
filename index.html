@@ -13,23 +13,47 @@
   </head>
   <body>
     <header>
-      <nav class="my-nav">
-        <a href="index.html" class="brand-name">chopLife</a>
-        <ul class="nav-ul">
-          <li class="nav-item">
-            <a href="#dish-section" class="nav-li">Dishes</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-li">Cntact Us</a>
-          </li>
-          <li class="nav-item">
-            <a href="#partners" class="nav-li">Partners</a>
-          </li>
-        </ul>
-        <div class="hamburger-bar">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+      <nav>
+        <div class="my-nav">
+          <a href="index.html" class="brand-name">chopLife</a>
+          <ul class="nav-ul">
+            <li class="nav-item">
+              <a href="#dish-section" class="nav-li">Dishes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-li">Cntact Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="#partners" class="nav-li">Partners</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-li">About Us</a>
+            </li>
+          </ul>
+          <div class="hamburger-bar">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+
+        <!-- mobile nav display -->
+        <div class="container-nav">
+          <ul class="mobile-nav-ul">
+            <li class="mobile-nav-li">
+              <a href="#dish-section" class="mobile-nav-li">Dishes</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a href="#contact" class="mobile-nav-li">Cntact Us</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a href="#partners" class="mobile-nav-li">Partners</a>
+            </li>
+          </ul>
+
+          <ul class="hamb-ul">
+            <li class="close-hamb">&times;</li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -141,7 +165,7 @@
           <div class="review-card">
             <img
               src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-              width="100"
+              class="reviewer-img"
               alt=""
             />
             <div class="user-comment">
@@ -156,7 +180,7 @@
           <div class="review-card">
             <img
               src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-              width="100"
+              class="reviewer-img"
               alt=""
             />
             <div class="user-comment">
@@ -171,7 +195,7 @@
           <div class="review-card">
             <img
               src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-              width="100"
+              class="reviewer-img"
               alt=""
             />
             <div class="user-comment">
@@ -186,7 +210,7 @@
           <div class="review-card">
             <img
               src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-              width="100"
+              class="reviewer-img"
               alt=""
             />
             <div class="user-comment">
@@ -249,6 +273,7 @@
         </p>
       </section>
     </footer>
+    <script src="menu.js"></script>
     <script src="./main.js"></script>
   </body>
 </html>
