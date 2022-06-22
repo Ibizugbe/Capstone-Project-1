@@ -17,13 +17,13 @@
         <a href="index.html" class="brand-name">chopLife</a>
         <ul class="nav-ul">
           <li class="nav-item">
-            <a href="" class="nav-li">Home</a>
+            <a href="#dish-section" class="nav-li">Dishes</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-li">About</a>
+            <a href="#contact" class="nav-li">Cntact Us</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-li">Contact</a>
+            <a href="#partners" class="nav-li">Partners</a>
           </li>
         </ul>
         <div class="hamburger-bar">
@@ -37,17 +37,22 @@
       <section id="intro">
         <div class="flex-contain">
           <div class="intro-container">
+            <p class="introP">"Good food guarantees healthy living."</p>
             <h1 class="intro-header">
               Get your favorite meals delivered to You!
             </h1>
 
             <form class="my-form">
-              <input
-                type="text"
-                class="name-input"
-                placeholder="Enter your address"
-              />
-              <input type="datetime-local" class="name-input" />
+              <div class="address-input">
+                <input
+                  type="text"
+                  class="name-input"
+                  placeholder="Enter your address"
+                />
+              </div>
+              <div class="time-input">
+                <input type="datetime-local" class="name-input" />
+              </div>
               <div class="btn-container">
                 <button class="find-food" type="submit">Find Food</button>
               </div>
@@ -56,6 +61,10 @@
                 for recent address
               </p>
             </form>
+            <p class="chopP">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Architecto modi facere rerum sequi veritatis iusto enim.
+            </p>
           </div>
         </div>
       </section>
@@ -65,195 +74,181 @@
           <h2 class="main-dishes">Main Dishes</h2>
         </div>
 
-        <div class="dishes">
-          <!-- 1st dish -->
-          <div class="dish-card" id="dish-card1">
-            <div class="card-body">
-              <p class="dish-name">Italian Pasta</p>
-              <p class="dish-rating">
-                12,456
-                <img
-                  src="./Assets/icons/icons8-star-48.png"
-                  width="25"
-                  alt=""
-                />
-              </p>
-              <p class="dish-description">
-                Mashed potatoes with T-bone steak...
-              </p>
-              <p class="order">
-                ₦ 9,000
-                <span class="cart">
-                  <img
-                    src="./Assets/icons/icons8-buying-50.png"
-                    width="20"
-                    alt=""
-                  />
-                </span>
-              </p>
-            </div>
-          </div>
-          <!-- 2nd-dish -->
-          <div class="dish-card" id="dish-card2">
-            <div class="card-body">
-              <p class="dish-name">Italian Pasta</p>
-              <p class="dish-rating">
-                12,456
-                <img
-                  src="./Assets/icons/icons8-star-48.png"
-                  width="25"
-                  alt=""
-                />
-              </p>
-              <p class="dish-description">
-                Mashed potatoes with T-bone steak...
-              </p>
-              <p class="order">
-                ₦ 9,000
-                <span class="cart">
-                  <img
-                    src="./Assets/icons/icons8-buying-50.png"
-                    width="20"
-                    alt=""
-                  />
-                </span>
-              </p>
-            </div>
-          </div>
-          <!-- 3rd-dish -->
-          <div class="dish-card" id="dish-card3">
-            <div class="card-body">
-              <p class="dish-name">Italian Pasta</p>
-              <p class="dish-rating">
-                12,456
-                <img
-                  src="./Assets/icons/icons8-star-48.png"
-                  width="25"
-                  alt=""
-                />
-              </p>
-              <p class="dish-description">
-                Mashed potatoes with T-bone steak...
-              </p>
-              <p class="order">
-                ₦ 9,000
-                <span class="cart">
-                  <img
-                    src="./Assets/icons/icons8-buying-50.png"
-                    width="20"
-                    alt=""
-                  />
-                </span>
-              </p>
-            </div>
-          </div>
-          <!-- 4th dish -->
-          <div class="dish-card" id="dish-card4">
-            <div class="card-body">
-              <p class="dish-name">Italian Pasta</p>
-              <p class="dish-rating">
-                12,456
-                <img
-                  src="./Assets/icons/icons8-star-48.png"
-                  width="25"
-                  alt=""
-                />
-              </p>
-              <p class="dish-description">
-                Mashed potatoes with T-bone steak...
-              </p>
-              <p class="order">
-                ₦ 9,000
-                <span class="cart">
-                  <img
-                    src="./Assets/icons/icons8-buying-50.png"
-                    width="20"
-                    alt=""
-                  />
-                </span>
-              </p>
-            </div>
-          </div>
-          <div class="see-more">
-            <a href="#" class="see"> See More </a>
-          </div>
+        <ul class="dishes">
+          <li class="dish-card">
+            <img
+              src="./Assets/other-images/Jollof-rice.jpeg"
+              alt=""
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description">Mashed potatoes with T-bone steak...</p>
+          </li>
+
+          <li class="dish-card">
+            <img
+              src="./Assets/other-images/Jollof-rice.jpeg"
+              alt=""
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description">Mashed potatoes with T-bone steak...</p>
+          </li>
+
+          <li class="dish-card">
+            <img
+              src="./Assets/other-images/Jollof-rice.jpeg"
+              alt=""
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description">Mashed potatoes with T-bone steak...</p>
+          </li>
+
+          <li class="dish-card">
+            <img
+              src="./Assets/other-images/Jollof-rice.jpeg"
+              alt=""
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description" class="dish-discription">
+              Mashed potatoes with T-bone steak...
+            </p>
+          </li>
+
+          <li class="dish-card">
+            <img
+              src="./Assets/other-images/Jollof-rice.jpeg"
+              alt=""
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description" class="dish-discription">
+              Mashed potatoes with T-bone steak...
+            </p>
+          </li>
+        </ul>
+
+        <div class="see-more">
+          <a href="#" class="see"> See More Dishes</a>
         </div>
       </section>
       <!-- reviews section -->
       <section id="reviews">
-        <h2 class="review-header">See what our Users are saying about us!!</h2>
-        <div class="review-card">
-          <img
-            src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-            width="100"
-            alt=""
-          />
-          <div class="user-comment">
-            <p class="name">John Stanley</p>
-            <p class="comment">
-              Best food delivery app i have used in nigeria. Absolutly
-              recommended and ill use it over and over agai!
-            </p>
+        <h2 class="review-header">What our users have to say!!</h2>
+        <div class="reviews-container">
+          <div class="review-card">
+            <img
+              src="./Assets/other-images/IMG-20220504-WA0018.jpg"
+              width="100"
+              alt=""
+            />
+            <div class="user-comment">
+              <p class="name">John Stanley</p>
+              <p class="comment">
+                Best food delivery app i have used in nigeria. Absolutly
+                recommended and ill use it over and over agai!
+              </p>
+            </div>
+          </div>
+          <!-- 2nd review card -->
+          <div class="review-card">
+            <img
+              src="./Assets/other-images/IMG-20220504-WA0018.jpg"
+              width="100"
+              alt=""
+            />
+            <div class="user-comment">
+              <p class="name">John Stanley</p>
+              <p class="comment">
+                Best food delivery app i have used in nigeria. Absolutly
+                recommended and ill use it over and over agai!
+              </p>
+            </div>
+          </div>
+          <!-- 3rd card -->
+          <div class="review-card">
+            <img
+              src="./Assets/other-images/IMG-20220504-WA0018.jpg"
+              width="100"
+              alt=""
+            />
+            <div class="user-comment">
+              <p class="name">John Stanley</p>
+              <p class="comment">
+                Best food delivery app i have used in nigeria. Absolutly
+                recommended and ill use it over and over agai!
+              </p>
+            </div>
+          </div>
+          <!-- 4th card -->
+          <div class="review-card">
+            <img
+              src="./Assets/other-images/IMG-20220504-WA0018.jpg"
+              width="100"
+              alt=""
+            />
+            <div class="user-comment">
+              <p class="name">John Stanley</p>
+              <p class="comment">
+                Best food delivery app i have used in nigeria. Absolutly
+                recommended and ill use it over and over agai!
+              </p>
+            </div>
           </div>
         </div>
-        <!-- 2nd review card -->
-        <div class="review-card">
-          <img
-            src="./Assets/other-images/IMG-20220504-WA0018.jpg"
-            width="100"
-            alt=""
-          />
-          <div class="user-comment">
-            <p class="name">John Stanley</p>
-            <p class="comment">
-              Best food delivery app i have used in nigeria. Absolutly
-              recommended and ill use it over and over agai!
-            </p>
-          </div>
-        </div>
+
         <div class="see-more">
           <a href="#" class="black-see"> See More </a>
         </div>
       </section>
       <!-- partners section -->
       <section id="partners">
-        <h3 class="partner-header">Partners</h3>
+        <div class="partner-head-container">
+          <h3 class="partner-header">Partners</h3>
+        </div>
         <div class="partner-container">
           <img
-            src="./Assets/partner-images/chicken-repub-color.jpg"
-            width="80"
+            src="./Assets/partner-images/airbnb-logo.svg"
             alt=""
             class="partner-img"
           />
           <img
-            src="./Assets/partner-images/cold-stone.jpg"
-            width="80"
+            src="./Assets/partner-images/google.png"
             alt=""
             class="partner-img"
           />
           <img
-            src="./Assets/partner-images/dominos.png"
-            width="80"
+            src="./Assets/partner-images/iptmember.png"
+            alt=""
+            class="partner-img"
+          />
+          <img
+            src="./Assets/partner-images/mozilla.png"
+            alt=""
+            class="partner-img"
+          />
+          <img
+            src="./Assets/partner-images/netflix.svg"
             alt=""
             class="partner-img"
           />
         </div>
-        <div class="partner-container-2">
-          <img
-            src="./Assets/partner-images/kada.jpg"
-            width="80"
-            alt=""
-            class="partner-img"
-          />
-          <img
-            src="./Assets/partner-images/woods.jpg"
-            width="80"
-            alt=""
-            class="partner-img"
-          />
-        </div>
+        <div class="partner-container-2"></div>
       </section>
+      <!-- contact section -->
     </main>
+
+    <footer>
+      <section id="footer">
+        <p class="brand-name" id="footer-brand">chopLife</p>
+        <p class="copy-right">
+          Copyright © 2022 All rights reserved. <br />
+          Made with ❤️ by Ibizugbe Abraham.
+        </p>
+      </section>
+    </footer>
     <script src="./main.js"></script>
   </body>
 </html>

@@ -3,11 +3,10 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  min-width: 365px;
 }
 
 header {
-  background-color: black;
+  background-color: white;
 }
 
 ul {
@@ -28,7 +27,7 @@ a {
 }
 
 .nav-li {
-  color: #d3d3d3;
+  color: #272a31;
   font-weight: 500;
   transition: 0.7s ease;
 }
@@ -38,8 +37,8 @@ a {
 }
 
 .brand-name {
-  font-size: 1.5em;
-  font-weight: 100;
+  font-size: 24px;
+  font-weight: 300;
   color: #ec5242;
 }
 
@@ -63,30 +62,39 @@ a {
 .nav-ul {
   display: none;
   justify-content: space-between;
-  gap: 100px;
+  gap: 50px;
 }
 
-.intro-container {
+#intro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./Assets/background-images/chopLifeBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 70vh;
-  padding: 60px 15px 0 15px;
   background-position: center;
 }
 
 .intro-header {
   font-size: 32px;
-  color: #f7f7f7;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 40px;
-  text-align: center;
+  background-image: url(./Assets/background-images/heading-background.jpg);
+  background-size: 150px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 0;
+}
+
+.introP {
+  color: orangered;
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
 .flex-contain {
-  display: flex;
-  align-items: center;
+  padding: 60px 15px 0 15px;
+  background-color: #f7f7f7;
+  opacity: 90%;
+  padding-bottom: 80px;
 }
 
 .find-food {
@@ -114,13 +122,12 @@ a {
 .btn-container {
   margin-top: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: cent;
 }
 
 .small-text {
   padding-top: 10px;
-  text-align: center;
-  color: white;
+  color: #272a31;
   margin: 0;
   font-size: 12px;
 }
@@ -130,18 +137,29 @@ a {
 }
 
 /* dish section */
-
-.dishes {
-  padding: 0 15px 0 15px;
+#dish-section {
+  background-image: url(./Assets/background-images/program-section-bg.png);
 }
 
 .main-dishes {
+  display: block;
   font-size: 32px;
-  background-color: #000;
   color: white;
-  display: inline-block;
-  padding: 0 15px 0 15px;
-  border-radius: 12px;
+  text-align: center;
+  position: relative;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.main-dishes::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 50px;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ec5242;
 }
 
 .card-header {
@@ -150,114 +168,51 @@ a {
 }
 
 .dish-card {
-  border: #ec5242 2px solid;
-  background-color: #f7f7f7;
-  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 5px 0 5px 0;
+  background-color: rgba(233, 233, 233, 0.1);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+  padding: 20px 10px 20px 10px;
+  gap: 10px;
+  align-items: center;
 }
 
-#dish-card1 {
-  background-image: linear-gradient(
-      180deg,
-      rgba(196, 196, 196, 0) 16.15%,
-      rgba(0, 0, 0, 0.5) 54.69%,
-      #000000 100%
-    ),
-    url(./Assets/other-images/Jollof-rice.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 10px 30px 10px;
-}
-
-#dish-card2 {
-  background-image: linear-gradient(
-      180deg,
-      rgba(196, 196, 196, 0) 16.15%,
-      rgba(0, 0, 0, 0.5) 54.69%,
-      #000000 100%
-    ),
-    url(./Assets/other-images/1st-food-img.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 10px 30px 10px;
-  margin-top: 20px;
-}
-
-#dish-card3 {
-  background-image: linear-gradient(
-      180deg,
-      rgba(196, 196, 196, 0) 16.15%,
-      rgba(0, 0, 0, 0.5) 54.69%,
-      #000000 100%
-    ),
-    url(./Assets/other-images/2nd-food-img.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 10px 30px 10px;
-  margin-top: 20px;
-}
-
-#dish-card4 {
-  background-image: linear-gradient(
-      180deg,
-      rgba(196, 196, 196, 0) 16.15%,
-      rgba(0, 0, 0, 0.5) 54.69%,
-      #000000 100%
-    ),
-    url(./Assets/other-images/3rs-food-image.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 50px 10px 30px 10px;
-  margin-top: 20px;
+.dish-img {
+  border-radius: 10px;
+  height: 80px;
+  width: 80px;
 }
 
 .dish-name {
-  font-size: 29px;
-  font-weight: 500;
+  color: #ec5242;
+  font-size: 14px;
+  margin: 0;
   text-align: center;
 }
 
 .dish-description {
+  margin: 0;
+  font-size: 12px;
+  color: #d3d3d3;
   text-align: center;
-  padding: 0 30px 0 30px;
-  text-transform: uppercase;
-  margin: 0;
+  grid-column: 3 / span2;
 }
 
-.dish-rating {
+.dishes {
+  display: grid;
   justify-content: center;
-  align-items: center;
-  display: flex;
-  font-size: 18px;
-  margin: 0;
-}
-
-.order {
-  font-size: 23px;
-  padding: 0 20px 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 500;
-  margin: 0;
-}
-
-.cart {
-  background-color: #ec5242;
-  padding: 3px 8px 3px 8px;
-  border-radius: 8px;
+  grid-template-columns: auto;
+  padding: 0 15px 0 15px;
 }
 
 .see {
-  background-color: #ec5242;
-  color: white;
-  padding: 10px;
-  border: none;
+  color: #d3d3d3;
   margin-top: 20px;
-  width: 70%;
-  border-radius: 8px;
   font-size: 18px;
   font-weight: 600;
   text-align: center;
+  text-decoration: underline;
 }
 
 .see-more {
@@ -318,18 +273,16 @@ a {
 }
 
 .partner-container {
-  display: flex;
+  display: grid;
+  min-width: 100%;
+  grid-template-columns: auto auto;
   justify-content: center;
-}
-
-.partner-container-2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
+  padding-bottom: 40px;
 }
 
 .partner-img {
-  margin: 10px;
+  margin: 30px;
+  width: 50%;
 }
 
 .partner-header {
@@ -337,4 +290,164 @@ a {
   color: #ec5242;
   text-align: center;
   border: #ec5242 1px solid;
+  width: 70%;
+}
+
+.partner-head-container {
+  display: flex;
+  justify-content: center;
+}
+
+.chopP {
+  width: 90%;
+  border: white 3px solid;
+  padding: 20px;
+  color: #4f4b4b;
+  background-color: #faf1f1;
+}
+
+#footer {
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .nav-ul {
+    display: flex;
+  }
+
+  .hamburger-bar {
+    display: none;
+  }
+
+  .my-nav {
+    padding: 10px 150px 10px 150px;
+  }
+
+  .brand-name {
+    font-size: 40px;
+  }
+
+  .intro-header {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 80px;
+    padding: 0 180px 0 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .name-input {
+    width: 50%;
+  }
+
+  .find-food {
+    width: 40%;
+  }
+
+  .dishes {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 20px 150px 20px 150px;
+  }
+
+  .dish-name {
+    color: #ec5242;
+    margin: 0;
+    text-align: center;
+  }
+
+  .dish-description {
+    margin: 0;
+    font-size: 12px;
+    color: #d3d3d3;
+    text-align: center;
+  }
+
+  .dish-img {
+    border-radius: 10px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
+
+  .dish-card {
+    margin: 10px;
+    background-color: rgba(233, 233, 233, 0.1);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+    padding: 20px 5% 50px 5%;
+    display: block;
+  }
+
+  .dish-card:hover {
+    border: 1px solid white;
+  }
+
+  .reviews-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 20px 140px 0 140px;
+  }
+
+  .review-card {
+    margin: 10px;
+  }
+
+  .black-see {
+    width: 30%;
+  }
+
+  .partner-header {
+    width: 30%;
+  }
+
+  .chopP {
+    width: 60%;
+    border: white 1px solid;
+    padding: 20px;
+    color: #4f4b4b;
+    margin-left: 140px;
+  }
+
+  .small-text {
+    padding-left: 140px;
+  }
+
+  .introP {
+    color: orangered;
+    font-size: 24px;
+    padding-left: 140px;
+    margin-bottom: 0;
+  }
+
+  .address-input,
+  .time-input,
+  .btn-container {
+    padding-left: 140px;
+  }
+
+  .partner-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+
+  #footer {
+    padding: 10px 200px 10px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #footer-brand {
+    margin: 0;
+  }
+
+  .copy-right {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+  }
 }
