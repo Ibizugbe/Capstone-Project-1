@@ -178,7 +178,6 @@ a {
 .btn-container {
   margin-top: 15px;
   display: flex;
-  justify-content: cent;
 }
 
 .small-text {
@@ -393,14 +392,6 @@ label {
     display: flex;
   }
 
-  .social-nav {
-    display: flex;
-    justify-content: end;
-    display: block;
-    background-color: #272a31;
-    color: white;
-  }
-
   .social-nav-link {
     color: black;
   }
@@ -480,10 +471,6 @@ label {
     padding: 20px 140px 0 140px;
   }
 
-  .review-card {
-    margin: 10px;
-  }
-
   .black-see {
     width: 30%;
   }
@@ -515,6 +502,7 @@ label {
     display: flex;
     border: 2px solid #ec5242;
     padding: 10px;
+    margin: 10px;
     margin-top: 10px;
     background-color: #f7f7f7;
   }
