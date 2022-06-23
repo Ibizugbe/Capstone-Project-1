@@ -378,11 +378,97 @@ a {
   text-align: center;
 }
 
+.about-logo-head {
+  display: block;
+  font-size: 32px;
+  color: #4a4545;
+  text-align: center;
+  position: relative;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.about-logo-head::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 50px;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ec5242;
+}
+
+.about-p {
+  text-align: center;
+  color: #4a4545;
+  padding: 15px;
+}
+
 #about-footer {
   padding: 10px 20px 10px 20px;
   display: grid;
   background-color: #272a31;
   color: white;
+  padding: 50px;
+}
+
+.dinner-1 {
+  background-image: url(./Assets/background-images/02tmag-tablescape-slide-U526-videoSixteenByNineJumbo1600-v2.jpg);
+  background-size: calc(100%);
+  text-align: center;
+  color: white;
+  height: auto;
+  width: auto;
+  padding: 50px;
+}
+
+.dinner-2 {
+  background-image: url(./Assets/background-images/5e6677593d7de05e1982dd4524b02b8b.jpg);
+  text-align: center;
+  color: white;
+  background-size: calc(100%);
+  height: auto;
+  width: auto;
+  padding: 50px;
+}
+
+.dinner-contain {
+  display: grid;
+  padding: 10px 10px;
+  gap: 25px;
+}
+
+.chop-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-header {
+  display: block;
+  font-size: 32px;
+  color: #4a4545;
+  text-align: center;
+  position: relative;
+  font-weight: normal;
+  margin-bottom: 3rem;
+}
+
+.event-header::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 50px;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ec5242;
+}
+
+.img-div {
+  border: 1px solid #ec5242;
+  padding: 20px;
 }
 
 .time-input {
@@ -397,6 +483,31 @@ label {
 @media (min-width: 768px) {
   .nav-ul {
     display: flex;
+  }
+
+  .dinner-2 {
+    height: 100px;
+    width: 28%;
+    padding: 50px;
+  }
+
+  .dinner-1 {
+    height: 100px;
+    width: 28%;
+    padding: 50px;
+  }
+
+  .dinner-contain {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 30px;
+  }
+
+  .about-p {
+    text-align: center;
+    color: #4a4545;
+    padding: 15px 140px 15px 140px;
   }
 
   .nav {
