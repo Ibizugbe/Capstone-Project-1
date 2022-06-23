@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -13,6 +13,10 @@ ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+.dark-nav {
+  display: none;
 }
 
 a {
@@ -45,6 +49,7 @@ a {
   display: none;
   background-color: #ec5242;
   height: 100vh;
+  width: 90vw;
   opacity: 100%;
   justify-content: space-between;
   padding: 0 20px 20px 20px;
@@ -79,6 +84,8 @@ a {
   font-size: 24px;
   font-weight: 300;
   color: #ec5242;
+  font-family: "Cocogoose", sans-serif;
+  display: none;
 }
 
 .brand-name:hover {
@@ -105,8 +112,7 @@ a {
 }
 
 #intro {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./Assets/background-images/chopLifeBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -393,6 +399,11 @@ label {
     display: flex;
   }
 
+  .nav {
+    position: static;
+    z-index: 0;
+  }
+
   .social-nav-link {
     color: black;
   }
@@ -402,11 +413,12 @@ label {
   }
 
   .my-nav {
-    padding: 10px 150px 10px 150px;
+    padding: 5px 110px 5px 110px;
   }
 
   .brand-name {
     font-size: 40px;
+    display: block;
   }
 
   .intro-header {
@@ -421,6 +433,28 @@ label {
 
   .name-input {
     width: 50%;
+  }
+
+  .dark-nav {
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 25px;
+  }
+
+  .dark-nav-ul {
+    display: flex;
+    padding: 5px 80px 5px 80px;
+  }
+
+  .dark-nav-link {
+    color: white;
+    font-size: 10px;
+  }
+
+  .dark-nav-li {
+    padding: 0 15px 0 15px;
   }
 
   .find-food {
