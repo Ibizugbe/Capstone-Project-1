@@ -20,7 +20,7 @@
 
 - Copy this link [this link](https://github.com/Ibizugbe/Capstone-Project-1/)
 - Open your terminal or command line
-- Run "git clone" and paste [this link](https://github.com/Ibizugbe/Capstone-Project-1/)"
+- Run `git clone https://github.com/Ibizugbe/Capstone-Project-1/` to clone this repo in your local computer.
 - Open the folder with your code editor
 - Create a branch to work on
 - Run `npm start`
