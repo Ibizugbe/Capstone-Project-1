@@ -17,6 +17,9 @@ menuClose.addEventListener('click', () => {
 about.forEach((n) => {
   n.addEventListener('click', () => {
     containerNav.style.display = 'none';
+<<<<<<< HEAD
     navList.style.display = 'flex';
+=======
+>>>>>>> 23fb5b53d41c82f47235c03489f983def44fe166
   });
 });
