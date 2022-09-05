@@ -4,10 +4,6 @@
 
 > chopLife is a food delivery app that connects users to their favorite restaurants. It provides a platform for users to get their favorite meals to their doorstep from their favorite restaurants, for restaurants to connect more with customers, for dispatch riders to connect more with customers.
 
-## Live Link
-
-[See project live](https://ibizugbe.github.io/Capstone-Project-1/)
-
 ## Screenshot
 
 ![Desktop Home Screen](./Assets/Screenshots/desktop-landing.png)
