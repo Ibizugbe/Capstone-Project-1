@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Math Magician
+# ChopLife
 
 > chopLife is a food delivery app that connects users to their favorite restaurants. It provides a platform for users to get their favorite meals to their doorstep from their favorite restaurants, for restaurants to connect more with customers, for dispatch riders to connect more with customers.
 
