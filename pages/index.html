@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chopLife</title>
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="dark-nav">
+        <ul class="dark-nav-ul">
+          <li class="dark-nav-li">
+            <a href="#" class="dark-nav-link">Language</a>
+          </li>
+          <li class="dark-nav-li">
+            <a href="#" class="dark-nav-link">English</a>
+          </li>
+          <li class="dark-nav-li">
+            <a href="#" class="dark-nav-link">Logout</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="nav">
+        <div class="my-nav">
+          <div class="hamburger-bar">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <a href="index.html" class="brand-name">chopLife</a>
+          <ul class="nav-ul">
+            <li class="nav-item">
+              <a href="#dish-section" class="nav-li">Dishes</a>
+            </li>
+            <li class="nav-item">
+              <a href="#reviews" class="nav-li">Comments</a>
+            </li>
+            <li class="nav-item">
+              <a href="#partners" class="nav-li">Partners</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-li">About Us</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- mobile nav display -->
+        <div class="container-nav animate animate__fadeInLeft">
+          <ul class="mobile-nav-ul">
+            <li class="mobile-nav-li">
+              <a href="#dish-section" class="mobile-nav-li">Dishes</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a href="#reviews" class="mobile-nav-li">Comments</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a href="#partners" class="mobile-nav-li">Partners</a>
+            </li>
+            <li class="mobile-nav-li">
+              <a href="about.html" class="mobile-nav-li">About Us</a>
+            </li>
+          </ul>
+
+          <ul class="hamb-ul">
+            <li class="close-hamb">&times;</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="intro" class="fade-in">
+        <div class="flex-contain">
+          <div class="intro-container">
+            <p class="introP">"Good food guarantees healthy living."</p>
+            <h1 class="intro-header">
+              Get your favorite meals delivered to You!
+            </h1>
+
+            <form class="my-form">
+              <div class="address-input">
+                <label for="address"
+                  >Where do you want your meal delivered?</label
+                >
+                <input
+                  type="text"
+                  class="name-input"
+                  id="address"
+                  name="address"
+                  placeholder="Enter your address"
+                />
+              </div>
+              <div class="time-input">
+                <label for="date-and-time"
+                  >When do you want your meal delivered?</label
+                >
+                <input
+                  type="datetime-local"
+                  id="date-and-time"
+                  name="date-and-time"
+                  class="name-input"
+                  value="2022-04-24T08:44"
+                />
+              </div>
+              <div class="btn-container">
+                <button class="find-food" type="submit">Find Food</button>
+              </div>
+              <p class="small-text">
+                <a href="#" class="sign-in-sm">sign in</a>
+                for recent address
+              </p>
+            </form>
+            <p class="chopP">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Architecto modi facere rerum sequi veritatis iusto enim.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- dishes section -->
+      <section id="dish-section">
+        <div class="card-header">
+          <h2 class="main-dishes">Main Dishes</h2>
+        </div>
+
+        <ul class="dishes">
+          <li class="dish-card">
+            <img
+              src="/Assets/other-images/Jollof-rice.jpeg"
+              alt="dish-image"
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description">Mashed potatoes with T-bone steak...</p>
+          </li>
+
+          <li class="dish-card">
+            <img
+              src="/Assets/other-images/Jollof-rice.jpeg"
+              alt="dish-image"
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description">Mashed potatoes with T-bone steak...</p>
+          </li>
+
+          <li class="dish-card">
+            <img
+              src="/Assets/other-images/Jollof-rice.jpeg"
+              alt="dish-image"
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description">Mashed potatoes with T-bone steak...</p>
+          </li>
+
+          <li class="dish-card">
+            <img
+              src="/Assets/other-images/Jollof-rice.jpeg"
+              alt="dish-image"
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description">Mashed potatoes with T-bone steak...</p>
+          </li>
+
+          <li class="dish-card">
+            <img
+              src="/Assets/other-images/Jollof-rice.jpeg"
+              alt="dish-image"
+              class="dish-img"
+            />
+            <h3 class="dish-name">Italian Pasta</h3>
+            <p class="dish-description">Mashed potatoes with T-bone steak...</p>
+          </li>
+        </ul>
+
+        <div class="see-more">
+          <a href="#" class="see"> See More Dishes</a>
+        </div>
+      </section>
+      <!-- reviews section -->
+      <section id="reviews">
+        <h2 class="review-header">What our users have to say!!</h2>
+
+        <div class="reviews-container">
+          <!-- content is generated dynamically with javaScript -->
+        </div>
+
+        <div class="see-more">
+          <a href="#" class="black-see"> See More </a>
+        </div>
+      </section>
+      <!-- partners section -->
+      <section id="partners">
+        <div class="partner-head-container">
+          <h3 class="partner-header">Partners</h3>
+        </div>
+        <div class="partner-container">
+          <img
+            src="/Assets/partner-images/airbnb-logo.svg"
+            alt="airbnb"
+            class="partner-img"
+          />
+          <img
+            src="/Assets/partner-images/google.png"
+            alt="google"
+            class="partner-img"
+          />
+          <img
+            src="/Assets/partner-images/iptmember.png"
+            alt="iptmember"
+            class="partner-img"
+          />
+          <img
+            src="/Assets/partner-images/mozilla.png"
+            alt="mozilla"
+            class="partner-img"
+          />
+          <img
+            src="/Assets/partner-images/netflix.svg"
+            alt="netflix"
+            class="partner-img"
+          />
+        </div>
+      </section>
+      <!-- contact section -->
+    </main>
+
+    <footer>
+      <section id="footer">
+        <h2 class="brand-name" id="footer-brand">chopLife</h2>
+        <p class="copy-right">
+          Copyright © 2022 All rights reserved. <br />
+          Made with ❤️ by Ibizugbe Abraham.
+        </p>
+      </section>
+    </footer>
+    <script src="/JS/menu.js" type="module"></script>
+    <script src="/JS/main.js" type="module"></script>
+  </body>
+</html>
