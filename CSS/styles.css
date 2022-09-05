@@ -112,9 +112,8 @@ a {
 }
 
 #intro {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(./Assets/background-images/chopLifeBg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(/Assets/background-images/chopLifeBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -124,7 +123,7 @@ a {
   font-size: 32px;
   font-weight: 400;
   line-height: 40px;
-  background-image: url(./Assets/background-images/heading-background.jpg);
+  background-image: url(/Assets/background-images/heading-background.jpg);
   background-size: 150px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -201,7 +200,7 @@ a {
 
 /* dish section */
 #dish-section {
-  background-image: url(./Assets/background-images/program-section-bg.png);
+  background-image: url(/Assets/background-images/program-section-bg.png);
 }
 
 .main-dishes {
@@ -414,7 +413,7 @@ a {
 }
 
 .dinner-1 {
-  background-image: url(./Assets/background-images/02tmag-tablescape-slide-U526-videoSixteenByNineJumbo1600-v2.jpg);
+  background-image: url(/Assets/background-images/02tmag-tablescape-slide-U526-videoSixteenByNineJumbo1600-v2.jpg);
   background-size: calc(100%);
   text-align: center;
   color: white;
@@ -424,7 +423,7 @@ a {
 }
 
 .dinner-2 {
-  background-image: url(./Assets/background-images/5e6677593d7de05e1982dd4524b02b8b.jpg);
+  background-image: url(/Assets/background-images/5e6677593d7de05e1982dd4524b02b8b.jpg);
   text-align: center;
   color: white;
   background-size: calc(100%);
