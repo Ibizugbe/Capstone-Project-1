@@ -31,9 +31,8 @@
 
 ## Authors
 
-👤 **Author**
+👤 **Abraham Ibizugbe**
 
-- Name: Abraham Ibizugbe
 - GitHub: [githubhandle](https://github.com/Ibizugbe)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abraham-ibizugbe-763791115/)
 
