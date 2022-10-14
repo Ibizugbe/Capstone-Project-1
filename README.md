@@ -16,6 +16,9 @@
 - CSS
 - JavaScript
 
+## Live Demo
+[use this link to view this project live](https://choplife77.netlify.app/index.html)
+
 ## To get a local copy run the following steps:
 
 - Copy this link [this link](https://github.com/Ibizugbe/Capstone-Project-1/)
