@@ -4,10 +4,6 @@
 
 > chopLife is a food delivery app that connects users to their favorite restaurants. It provides a platform for users to get their favorite meals to their doorstep from their favorite restaurants, for restaurants to connect more with customers, for dispatch riders to connect more with customers.
 
-## Live Link
-
-[See project live](https://ibizugbe.github.io/Capstone-Project-1/)
-
 ## Screenshot
 
 ![Desktop Home Screen](./Assets/Screenshots/desktop-landing.png)
@@ -24,7 +20,7 @@
 
 - Copy this link [this link](https://github.com/Ibizugbe/Capstone-Project-1/)
 - Open your terminal or command line
-- Run "git clone" and paste [this link](https://github.com/Ibizugbe/Capstone-Project-1/)"
+- Run `git clone https://github.com/Ibizugbe/Capstone-Project-1/` to clone this repo in your local computer.
 - Open the folder with your code editor
 - Create a branch to work on
 - Run `npm start`
