@@ -112,8 +112,7 @@ a {
 }
 
 #intro {
-  background-image:
-    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/Assets/background-images/chopLifeBg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -367,6 +366,7 @@ a {
 }
 
 .chopP {
+  font-style: italic;
   width: 90%;
   border: white 3px solid;
   padding: 20px;
